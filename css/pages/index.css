@@ -190,3 +190,35 @@
     grid-template-columns: 1fr;
   }
 }
+
+.care-amazon {
+  background-color: #5cc879;
+  background-position: bottom;
+  object-fit: cover;
+  min-height: 11.875rem;
+  background-image: url("../../assets/images/amazon-forest-2.avif");
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.care-amazon::before {
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  z-index: -1;
+}
+
+.care-amazon p {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  max-width: 35ch;
+  line-height: 1.5;
+}
