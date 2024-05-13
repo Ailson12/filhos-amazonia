@@ -1,5 +1,6 @@
 @import '../global.css';
 @import '../components/header.css';
+@import '../components/footer.css';
 
 /* quem somos */
 .about-us .about-us-legend {
@@ -201,6 +202,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
+  margin-bottom: 2.5rem;
 }
 
 .care-amazon::before {
