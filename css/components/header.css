@@ -1,0 +1,46 @@
+.header-main {
+  min-height: 300px;
+  color: #fff;
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  object-fit: cover;
+  background-position: center;
+  background-image: url('../../assets/amazon-forest.jpg');
+}
+
+.header-main::before {
+  content: '';
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.header-main ul {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.header-main ul a {
+  font-weight: 500;
+}
+
+.header-main h1 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.header-main p {
+  font-size: 18px;
+  max-width: 55ch;
+  margin: auto;
+  line-height: 1.2;
+}
