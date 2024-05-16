@@ -14,19 +14,30 @@
   content: '';
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.4);
   bottom: 0;
   width: 100%;
   z-index: -1;
   position: absolute;
 }
 
+.header-main nav {
+  display: flex;
+  padding: 0 1rem;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
 .header-main ul {
   gap: 1rem;
+  color: #000;
   display: flex;
   flex-wrap: wrap;
+  margin-right: 1rem;
   justify-content: center;
-  margin-bottom: 3rem;
 }
 
 .header-main ul a {
@@ -41,6 +52,6 @@
 .header-main p {
   font-size: 18px;
   max-width: 55ch;
-  margin: auto;
+  margin: 0 auto 2rem auto;
   line-height: 1.2;
 }
