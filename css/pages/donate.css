@@ -1,0 +1,40 @@
+@import '../global.css';
+@import '../components/header.css';
+@import '../components/footer.css';
+
+.donate-bg {
+  margin: 3rem auto;
+  max-width: 1000px;
+}
+
+.donate-box {
+  display: grid;
+  padding: 3.5rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: #28323c;
+}
+
+.donate-box p {
+  color: #eee;
+  max-width: 38ch;
+}
+
+.qrcode-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: auto;
+  width: max-content;
+  position: relative;
+  border: 2px solid #eee;
+}
+
+.qrcode-text {
+  position: absolute;
+  bottom: -1rem;
+  padding: 4px 0.5rem;
+  background-color: #608447;
+}

@@ -1,5 +1,5 @@
 .header-main {
-  min-height: 300px;
+  min-height: 280px;
   color: #fff;
   padding: 1.5rem;
   position: relative;
@@ -14,7 +14,7 @@
   content: '';
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   width: 100%;
   z-index: -1;
@@ -46,12 +46,12 @@
 
 .header-main h1 {
   font-size: 36px;
-  margin-bottom: 1rem;
+  margin-bottom: 12px;
 }
 
 .header-main p {
   font-size: 18px;
   max-width: 55ch;
-  margin: 0 auto 2rem auto;
+  margin: auto;
   line-height: 1.2;
 }
